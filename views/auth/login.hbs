@@ -1,0 +1,87 @@
+<div class="page-header four">
+    <div class="container">
+        <div class="col-md-6 pull-left">
+            <h3>Đăng Nhập</h3>
+            <h4>User Login Here...!</h4>
+        </div>
+        <div class="col-md-6 pull-right">
+            <div class="breadcrumbs"><a href="/">Home</a> <i>/</i> Loing</div>
+        </div>
+    </div>
+</div>
+<!-- end page header -->
+<div class="section-lg counters m-bottom4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 sec-heading text-center">
+                <div class="row">
+                    <div class="login_form">
+                        <form class="sky-form" id="sky-form" method="POST">
+                            <header class="font-slim">Đăng nhập</header>
+                            <fieldset>
+                                <div class="section">
+                                    <div class="row">
+                                        <small style="color: red;">{{error}}</small>
+                                        <label class="label col col-4">Username</label>
+                                        <div class="col col-8">
+                                            <label class="input"> <i class="icon-append fa fa-user"></i>
+                                                <input type="text" name="username" required="required" value={{username}}>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <div class="row">
+                                        <label class="label col col-4">Password</label>
+                                        <div class="col col-8">
+                                            <label class="input"> <i class="icon-append fa fa-lock"></i>
+                                                <input type="password" name="password" required="required">
+                                            </label>
+                                            <div class="note"><a class="modal-opener" href="#sky-form2">Forgot
+                                                    password?</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <div class="row">
+                                        <div class="col col-4"></div>
+                                        <div class="col col-8">
+                                            <label class="checkbox">
+                                                <input type="checkbox" checked="" name="remember">
+                                                <i></i>Ghi nhớ đăng nhập</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <footer>
+                                <div class="fright"> <a class="button button-secondary"
+                                        href="/Auth/register">Đăng ký</a>
+                                    <button class="button" type="submit">Đăng nhập</button>
+                                </div>
+                            </footer>
+                        </form>
+                    </div>
+                    <form class="sky-form sky-form-modal" id="sky-form2" action="demo-recovery.php" novalidate>
+                        <header>Password recovery</header>
+                        <fieldset>
+                            <div class="section">
+                                <label class="label">E-mail</label>
+                                <label class="input"> <i class="icon-append icon-user"></i>
+                                    <input type="email" id="email" name="email">
+                                </label>
+                            </div>
+                        </fieldset>
+                        <footer>
+                            <button class="button" name="submit" type="submit">Submit</button>
+                            <a class="button button-secondary modal-closer" href="#">Close</a> </footer>
+                        <div class="message"> <i class="icon-ok"></i>
+                            <p>Your request successfully sent!<br>
+                                <a class="modal-closer" href="#">Close window</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end counters-->

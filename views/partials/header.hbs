@@ -1,0 +1,90 @@
+<div class="site-wrapper" style="position: relative;">
+    <div class="temp-header">
+        <div class="container">
+            <div class="row">
+                <div class="top-links">
+                    <div class="col-md-6 pull-left nodisplay">Call: +84 3731 88868</div>
+                    <div class="col-md-6 pull-right text-right">
+                        <ul class="top-right-list">
+                            {{#if username_sess}}
+                            <li><a href="/Me/course"><i class="fas fa-user-cog"></i> {{username_sess}}</a></li>
+                            <li><a href="/Auth/logout"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a></li>
+                            {{else}}
+                            <li><a href="/Auth/login"><i class="fa fa-lock"></i> Login</a></li>
+                            <li><a href="/Auth/register"><i class="fa fa-user"></i> Register</a> | </li>
+                            {{/if}}
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="last"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="header-section transparent style1 pin-style">
+            <div class="container">
+                <div class="mod-menu">
+                    <div class="row">
+                        <div class="col-sm-2"> <a href="/" title="" class="logo"> <img src="/images/logo.png" alt="">
+                            </a> </div>
+                        <div class="col-sm-10">
+                            <div class="main-nav">
+                                <ul class="nav navbar-nav top-nav">
+                                    <li class="search-parent"> <a href="javascript:void(0)" title=""><i
+                                                aria-hidden="true" class="fa fa-search"></i></a>
+                                        <div class="search-box">
+                                            <div class="content">
+                                                <div class="form-control">
+                                                    <input type="text" placeholder="Type to search" />
+                                                    <a href="#" class="search-btn"><i aria-hidden="true"
+                                                            class="fa fa-search"></i></a> </div>
+                                                <a href="#" class="close-btn">x</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="visible-xs menu-icon"> <a href="javascript:void(0)"
+                                            class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"
+                                            aria-expanded="false"> <i aria-hidden="true" class="fa fa-bars"></i> </a>
+                                    </li>
+                                </ul>
+                                <div id="menu" class="collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/About">About Us</a></li>
+                                        <li><a href="/Public/grid-course">Courses</a> <span class="arrow"></span>
+                                            <ul class="dm-align-2">
+                                                <li><a href="/Public/grid-course"><i class="fa fa-angle-right"></i> Grid
+                                                        View</a></li>
+                                                <li><a href="/Public/list-course"><i class="fa fa-angle-right"></i> List
+                                                        View</a></li>
+                                                <li><a href="/Public/single-course"><i class="fa fa-angle-right"></i> Single
+                                                        Course</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="/Our-team">Our Team</a></li>
+                                        <li><a href="/Public/blog-standard">Blog</a> <span class="arrow"></span>
+                                            <ul class="dm-align-2">
+                                                <li><a href="/Public/blog-standard"><i class="fa fa-angle-right"></i> Blog
+                                                        Standard</a></li>
+                                                <li><a href="/Public/blog-three-column"><i class="fa fa-angle-right"></i> Blog 3
+                                                        Columns</a></li>
+                                                <li><a href="/Public/blog-single"><i class="fa fa-angle-right"></i> Blog Single
+                                                        Post</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="/Contact">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end menu-->
+        </div>
+        <!--end menu-->
+    </div>
+
+    <div class="clearfix"></div>
