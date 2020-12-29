@@ -174,6 +174,8 @@
   width: calc(100% / 3);
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .content-item:hover .button-handle {
   border-top: 5.5px solid #49b5b9;
