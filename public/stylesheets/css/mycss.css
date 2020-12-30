@@ -165,6 +165,7 @@
   justify-content: space-evenly;
   padding-top: 0.5rem;
   border: 5.5px solid transparent;
+  width: 100%;
 }
 .content-item {
   box-shadow: 0 14px 20px -12px rgba(0, 0, 0, 0.5);
