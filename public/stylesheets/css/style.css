@@ -408,6 +408,8 @@ ul.list-nav li i {
 }
 .staff img {
   margin-bottom: 20px;
+  height: 300px;
+  margin: 0 auto;
 }
 .staff h3 {
   font-size: 20px;
